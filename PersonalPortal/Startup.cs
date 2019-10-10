@@ -48,7 +48,7 @@ namespace PersonalPortal
                 routes.MapRoute(
                     name: "DefaultApi",
                     template: "api/{controller}/{action}");
-                routes.MapSpaFallbackRoute("spa-fallabck", new { controller = "Home", action = "Index" });
+                routes.MapSpaFallbackRoute("spa-fallback", new { controller = "Home", action = "Index" });
             });
 
         }

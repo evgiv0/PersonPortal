@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace PersonalPortal.Controllers
 {
-    public class IndexController : Controller
+    public class HomeController : Controller
     {
         public IActionResult Index()
         {

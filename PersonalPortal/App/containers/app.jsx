@@ -1,8 +1,8 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './header/header.jsx';
-import About from "./about/About.1";
+import About from './about/about.jsx';
 import Blog from './blog/blog.jsx';
 
 export default class App extends React.Component {

@@ -20,7 +20,7 @@ namespace PersonalPortal
             var host = BuildWebHost(args);
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettintgs.json");
+                .AddJsonFile("appsettings.json");
 
             var config = builder.Build();
 

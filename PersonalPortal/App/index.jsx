@@ -3,6 +3,6 @@ import { render } from 'react-dom'
 import App from './containers/app.jsx'
 
 render(
-    <App />
+    <App />,
     document.getElementById('content')
 )
